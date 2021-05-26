@@ -1,0 +1,176 @@
+.App {
+  width: 80vw;
+  margin: 0 auto;
+}
+.nav-section {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 10em;
+  width: 10em;
+  margin-left: 1em;
+}
+.nav {
+  margin-right: 5em;
+}
+.footer {
+  background-color: aquamarine;
+  height: 15em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialMedia,
+.info {
+  padding: 3em;
+  text-align: center;
+  padding-top: 0;
+}
+.mediaImage {
+  width: 5em;
+  height: 5em;
+}
+h5,
+h6 {
+  font-size: 1.2em;
+}
+
+.content-wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.textImages {
+  height: 20em;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.textImage {
+  padding: 2rem;
+  width: 23em;
+}
+
+.inputWrapper {
+  background-color: beige;
+  border-radius: 2%;
+  box-shadow: 0px 1px 20px 01px #000000;
+  width: 40%;
+  padding: 1em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.submitButton {
+  width: 50%;
+  padding: 0.5em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+/* SEARCHBAR */
+.search-header {
+  font-size: 1em;
+  padding: 0.2em;
+  font-family: "Dancing Script", "sans-serif", cursive;
+}
+.input {
+  height: 2em;
+  border: 2px solid rgb(206, 67, 25);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em;
+}
+.container {
+  width: 90%;
+  padding: 4em;
+  margin: 0 auto;
+}
+
+.searchfield {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding: 2em;
+  text-align: center;
+  border: 2px solid rgb(206, 67, 25);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  font-weight: bold;
+
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.component {
+  height: 18em;
+  width: 20em;
+  text-align: center;
+  border: 2px solid rgb(206, 67, 25);
+  /* box-shadow taget från https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Spartan", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+.button {
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  top: 4em;
+  color: rgb(206, 67, 25);
+  padding: 1em;
+  border: 3px rgb(206, 67, 25) solid;
+  box-shadow: rgb(206, 67, 25) 0px 7px 29px 0px;
+  border-radius: 10%;
+}
+.button:hover {
+  background-color: rgb(206, 67, 25);
+  color: White;
+  border: 2px rgb(206, 67, 25) solid;
+  cursor: pointer;
+}
